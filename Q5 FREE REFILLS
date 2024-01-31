@@ -1,0 +1,8 @@
+drink = input() 
+if drink == 't' or drink == 'c':
+  refills = int(input())
+else:
+  refills = 0
+drink = 1
+print(drink + refills)
+
