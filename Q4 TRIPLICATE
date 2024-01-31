@@ -1,0 +1,13 @@
+pass1 = input()
+pass2 = input()
+pass3 = input()
+
+if pass1 == pass2 and pass2 == pass3:
+  print("OK")
+else:
+  if pass1 != pass2 and pass1 != pass3:
+    print("BOTH MISMATCH")
+  elif pass1 != pass2 and pass1 == pass3:
+    print("ENTRY 2 MISMATCH")
+  else:
+    print("ENTRY 3 MISMATCH")
