@@ -1,1 +1,6 @@
+x = input("annual hall fee")
+y = input("monthly subscription fee")
+z = input("number of childern in the club")
 
+totalcost = int(x) + (int(y) * 12) *int(z)
+print(totalcost)
