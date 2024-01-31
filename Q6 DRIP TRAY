@@ -1,0 +1,3 @@
+unit = input()
+while unit < 12:
+  unit = input()
