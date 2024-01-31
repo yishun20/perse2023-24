@@ -1,1 +1,5 @@
-
+word = input()
+front2 = word[:2]
+print(front2)
+word = word[2:6] + front2
+print(word)
